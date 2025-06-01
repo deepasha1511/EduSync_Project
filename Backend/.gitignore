@@ -1,0 +1,82 @@
+# === BACKEND: ASP.NET Core ===
+## Ignore build and publish folders
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.pdb
+*.cache
+*.dbmdl
+*.log
+
+# Ignore configuration files
+appsettings.json
+appsettings.*.json
+secrets.json
+
+# Ignore IIS settings
+.vs/
+*.vscode/
+
+# Ignore Rider files
+.idea/
+
+# Ignore Test results
+TestResults/
+*.trx
+
+# Ignore coverage tools
+coverage/
+*.coverage
+*.coveragexml
+
+# Ignore publish output
+publish/
+
+# Ignore NuGet packages
+*.nupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Ignore global.json from SDK
+global.json
+
+# === FRONTEND: React (EduSync-Frontend) ===
+node_modules/
+build/
+dist/
+.env
+.env.local
+.env.*.local
+
+# IDE settings
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.DS_Store
+Thumbs.db
+
+# === Optional ===
+*.swp
+*.tmp
+*.bak
+*.old
+*.orig
+
+# === OS generated ===
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# === Git ===
+*.orig
+*.rej
+
+# === Sample file to share structure without secrets ===
+!appsettings.sample.json
